@@ -8,7 +8,7 @@ public class Criteria extends ComponentDecorator {
     }
 
     public void operation(){
-        // to specify
+        // to specify / specialize
     }
 
 
