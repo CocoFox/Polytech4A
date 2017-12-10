@@ -1,7 +1,11 @@
 public class Criteria extends ComponentDecorator {
     public String criteria;
-    public void setCriteria(String cri){
-        criteria = dec;
+    
+    public Criteria(String criteria){
+        this.criteria = criteria;
+    }
+    public void setCriteria(String criteria){
+        this.criteria = criteria;
     }
     public String getCriteria(){
         return criteria;
