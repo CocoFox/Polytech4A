@@ -19,7 +19,7 @@ public class CriteriaList {
     
     public CriteriaList(String c){
         criterias = new ArrayList<>();
-        criterias.add("hello");
+        criterias.add(c);
     }
     public ArrayList<String> getCriterias(){
         return criterias;
