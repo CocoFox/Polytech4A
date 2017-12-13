@@ -23,6 +23,9 @@ public class ComponentDecorator implements ModelComponent{
         this.component = component;
     }
     
+    public CriteriaList getCriteriaList(){
+        return criterias;
+    }
 
     @Override
     public Boolean tryOrder() {

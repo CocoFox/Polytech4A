@@ -28,6 +28,13 @@ public class CriteriaList {
         criterias.add(c);
     }
     
+    public int calculateScore(){
+        //*todo
+        return 420;
+    }
+        
+    
+    
     
     
     
